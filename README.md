@@ -15,7 +15,7 @@
   ```shell
   npm install -S babel-polyfill
   ```
-  >因为这是一个 polyfill （它需要在你的源代码之前运行），我们需要让它成为一个 dependency, 而不是一个 devDependency.
+  >因为这是一个 polyfill （它需要在你的源代码之前运行），我们需要让它成为一个 dependency, 而不是一个 devDependency.  
   ~~PS: 其实 devDependency 也行~~
 
   - 需要在应用入口顶部通过 require 将 polyfill 引入进来。`require("babel-polyfill");`
