@@ -1,0 +1,32 @@
+{
+  "name": "compatible-ie-browser",
+  "version": "1.0.0",
+  "description": "This is a Polyfill for IE browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasttian/compatible-IE-browser.git"
+  },
+  "keywords": [
+    "javascript",
+    "IE-browser",
+    "compatibility"
+  ],
+  "author": {
+    "name": "vasttian",
+    "email": "tianyiming26@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vasttian/compatible-IE-browser/issues"
+  },
+  "homepage": "https://github.com/vasttian/compatible-IE-browser#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
