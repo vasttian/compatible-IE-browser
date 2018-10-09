@@ -1,4 +1,4 @@
-// Ployfill
+// Polyfill
 
 /* eslint-disable */
 // https://tc39.github.io/ecma262/#sec-array.prototype.find
@@ -49,7 +49,6 @@ if (!Array.prototype.find) {
     writable: true
   });
 }
-
 
 // https://tc39.github.io/ecma262/#sec-array.prototype.findIndex
 if (!Array.prototype.findIndex) {
